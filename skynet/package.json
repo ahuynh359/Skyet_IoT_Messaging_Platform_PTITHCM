@@ -1,0 +1,52 @@
+{
+  "name": "skynet",
+  "description": "communications platform and api for iot",
+  "version": "0.0.1-35",
+  "author": "Chris Matthieu",
+  "private": true,
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.2.1",
+    "JSONStream": "*",
+    "commander": "*",
+    "mongojs": "*",
+    "mqtt": "*",
+    "multiformats": "^9.9.0",
+    "node-static": "*",
+    "node-uuid": "*",
+    "redis": "^4.6.11",
+    "request": "*",
+    "restify": "^4.1.1",
+    "socket.io": "^0.9.19",
+    "tokenthrottle": "*"
+  },
+  "subdomain": "skynet",
+  "domains": [
+    "e2e.io",
+    "skynet.im",
+    "skynetim.com",
+    "meshines.com"
+  ],
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "main": "config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huchoi/skynet.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huchoi/skynet/issues"
+  },
+  "homepage": "https://github.com/huchoi/skynet#readme",
+  "keywords": []
+}
